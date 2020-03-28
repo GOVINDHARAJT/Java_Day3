@@ -33,7 +33,7 @@ public class HotelController extends HttpServlet {
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-	int numberOfPersons=Integer.parseInt(request.getParameter("persons"));
+		int numberOfPersons=Integer.parseInt(request.getParameter("persons"));
 		String roomtype=request.getParameter("roomtype");
 		String occupancy=request.getParameter("occupancy");
 		String from=request.getParameter("from");

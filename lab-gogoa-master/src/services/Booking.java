@@ -2,10 +2,17 @@ package services;
 
 // Type your code
 
+//parent class
 public class Booking{
 	
-	 public double booking(int noOfPersons,int rates) {
-		 return noOfPersons* rates;
-	 }
+	//method returning rates
+	public double booking(int noOfPersons,int rates)
+	{
+	
+        double d=(double)noOfPersons*rates;
+        return d;
+		
+}
+	
 	
 }

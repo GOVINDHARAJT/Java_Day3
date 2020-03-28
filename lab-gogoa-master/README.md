@@ -59,15 +59,15 @@ And finally, create a pull request so your ProGrad Mentor (PM) can review your w
 
 
 ## Progression - 1 
-1. ***Create a parent class called Flight inside the model package with the following arguments***
+1. ***Create a parent class called Hotel inside the model package with the following arguments***
    - ***private int noOfPersons***
 	  - ***private String classType***
 	  - ***private int rates***
 	  - ***private LocalDate from***
-   	- ***private LocalDate to***
-   	- ***private String triptype***
+   - ***private LocalDate to***
+   - ***private String triptype***
 2. ***Generate appropriate getters and setters.***
-3. ***Generate the constructor Flight(int noOfPersons, int rates, LocalDate from,LocalDate to,String triptype) in Flight class.***
+3. ***Generate the constructor Flight(int noOfPersons, int rates, String busType, LocalDate from,LocalDate to,String triptype) in Flight class.***
 
 
 ## Progression - 2
