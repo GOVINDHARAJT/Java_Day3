@@ -59,7 +59,7 @@ And finally, create a pull request so your ProGrad Mentor (PM) can review your w
 3. ***Generate a 3 argument constructor in the Blog class.***
 
 ## Progression - 2
-1. ***Blog detail is a String array separated by a comma.***
+1. ***Go to src/controller/BlogController. Blog detail is a String array separated by a comma.***
 2. ***Use the split method to separate the Strings.***
 3. ***The first value corresponds to the blog title and the second value corresponds to the blog description.*** 
 
